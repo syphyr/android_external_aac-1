@@ -41,6 +41,8 @@ LOCAL_SRC_FILES := \
 
 LOCAL_CFLAGS += -Wno-sequence-point -Wno-extra
 
+LOCAL_SHARED_LIBRARIES := liblog
+
 LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/libAACdec/include \
         $(LOCAL_PATH)/libAACenc/include \
